@@ -1,5 +1,6 @@
+import random
+
 def Noppa():
-    import random
     while True:
         noppa = random.randint(1, 6)
 
@@ -7,6 +8,5 @@ def Noppa():
 
         if noppa == 6:
             break
-
 
 Noppa()
